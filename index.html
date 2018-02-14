@@ -4,18 +4,21 @@
 <title>My Podcasts</title>
 <link rel="stylesheet" href="stylepage.css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300|Roboto+Condensed" rel="stylesheet">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src = "script.js"></script>
 </head>
 <body>
 <div class = "homegrid">
-    <div class = "header">
+    <div id = "header" class = "header">
     <ul class = nav>
     <li><a id = "active" href = "index.html">Home</a></li>
     <li><a href = "fiction.html" >Fiction</a></li>
     <li><a href="nonfiction.html">Nonfiction</a></li>
     <li><a href = "contact.html">Suggest A Podcast</a></li>
-        </ul>
+    <li><a href = "lookup.html">Search</a></li>
+    </ul>
     </div>
-    <p class = "subheader">Choose between...</p>
+    <p class = "subheader">Choose a podcast genre</p>
     <div class = "option1">
         <a href="fiction.html"> 
             <img class = "homeimage" src="spaceresized.gif" width="425px">
@@ -28,7 +31,7 @@
         </a>
         <a class = "imgtext" href="nonfiction.html">Non-fiction</a>
     </div>
-    <p class = "footer">Github: https://github.com/singseraphim/creativelab01.git</p>
+    <p id = "footer">Github: https://github.com/singseraphim/creativelab01.git</p>
 </div>
 </body>
 </html>

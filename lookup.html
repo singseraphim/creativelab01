@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Podcasts</title>
+<link rel="stylesheet" href="stylepage.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300|Roboto+Condensed" rel="stylesheet">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src = "script.js"></script>
+</head>
+<body>
+    <div id = "container">
+    <div class = "header">
+        <ul class = nav>
+            <li><a id = "active" href = "index.html">Home</a></li>
+            <li><a href = "fiction.html" >Fiction</a></li>
+            <li><a href="nonfiction.html">Nonfiction</a></li>
+            <li><a href = "contact.html">Suggest A Podcast</a></li>
+            <li><a id = "active" href = "liveshows.html">Search</a></li>
+        </ul>
+    </div>
+    <div id = "body">
+    <p class = "podtitle">Search</p>
+    <p class = "podtext">Find your new favorite podcast. Search for a title, genre, producer, etc.</p><br>
+    <div id = "search">
+        <form>
+            <div class = "input">
+                <input class = "intext" id="searchInput" type="text">
+                <input class = "insubmit" id="searchSubmit" type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    <div id = "searchResults"></div>
+    </div>
+    <p id = "footer">Github: https://github.com/singseraphim/creativelab01.git</p>
+    </div>
+    </body>
+</html>

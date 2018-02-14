@@ -31,13 +31,10 @@
         "header header"
         "subheader subheader"
         "option1 option2"
-        "suggest suggest    "
+        "suggest suggest"
         "footer footer"; 
 }
-.header {
-    grid-area: header;
-    margin: 0;
-}
+
 .subheader {
     grid-area: subheader;
     margin: 40px;
@@ -150,20 +147,58 @@ button {
     padding: 10px; 
     text-align: center;
 }
-.footer {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 10px;
+
+#searchResults {
+    margin: 0px 200px 0px 40px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 11px;
+ 
 }
-.podfooter {
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 10px;
+.podResults {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+}
+.resImage {
+ 
+}
+.resTitle {
+   color: black;
+}
+.resArtist {
+    font-size: 12px;
+}
+.resInfo {
+    font-size: 12px;
+}
+
+.resultText {
+    width: 300px;
+    margin: 0px 10px;
+}
+body {
+   margin:0;
+   padding:0;
+   
+}
+#container {
+   
+   position:relative;
+    height: 100%;
+}
+#header {
+   padding:10px;
+    width: 100%;
+    grid-area: header;
+}
+#body {
+   padding:10px;
+   padding-bottom:20px;
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 11px;
 }
